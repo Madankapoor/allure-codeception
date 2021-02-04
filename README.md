@@ -1,6 +1,6 @@
 # Allure Codeception Adapter
 
-This is an official [Codeception](http://codeception.com) adapter for Allure Framework.
+This is an fork of the offical [Codeception](http://codeception.com) adapter for Allure Framework present at https://github.com/allure-framework/allure-codeception. 
 
 ## What is this for?
 The main purpose of this adapter is to accumulate information about your tests and write it out to a set of XML files: one for each test class. This adapter only generates XML files containing information about tests. See [wiki section](https://github.com/allure-framework/allure-core/wiki#generating-report) on how to generate report.
