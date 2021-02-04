@@ -402,8 +402,9 @@ class AllureCodeception extends Extension
     {
         $argumentsLength = $this->tryGetOption(ARGUMENTS_LENGTH, 200);
 
-        $stepAction = $stepEvent->getStep()->getHumanizedActionWithoutArguments();
-        $stepArgs = $stepEvent->getStep()->getArgumentsAsString($argumentsLength);
+
+        $stepAction = $stepEvent->getStep() ? $stepEvent->getStep()->getHumanizedActionWithoutArguments() : '';
+        $stepArgs = $stepEvent->getStep() ? $stepEvent->getStep()->getArgumentsAsString($argumentsLength) : '';
 
         if (!trim($stepAction)) {
             $stepAction = $stepEvent->getStep()->getMetaStep()->getHumanizedActionWithoutArguments();
