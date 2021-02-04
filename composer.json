@@ -1,7 +1,7 @@
 {
-    "name": "allure-framework/allure-codeception",
+    "name": "mkapoor/allure-codeception",
     "keywords":["codeception", "testing", "report", "steps", "attachments", "cases", "allure"],
-    "description": "A Codeception adapter for Allure report.",
+    "description": "A Fork of the Codeception adapter for Allure report.",
     "homepage": "http://allure.qatools.ru/",
     "license": "Apache-2.0",
     "authors": [
